@@ -1,0 +1,32 @@
+@import 'Main';
+
+.data-points {
+  circle {
+    fill: white;
+    stroke-width: 4px;  
+  }
+
+  .dash-line {
+    stroke: $secondary-white;
+    stroke-width: 3px;
+    stroke-dasharray: .3, 15;
+    stroke-linecap: round;
+  }
+
+  .date-text {
+    fill: $primary-grey;
+    tspan {
+      text-anchor:middle;
+    }
+    &.selected {
+      transition: all .4s;
+      fill: $primary-white;
+    }
+  }
+  .tooltip {
+    fill: $primary-white;
+    text {
+      fill: black;
+    }
+  }
+}

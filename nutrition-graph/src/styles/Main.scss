@@ -1,0 +1,23 @@
+$bg-purple: #14111E;
+$primary-white: #FDFDFD;
+$secondary-white: #cececf;
+$primary-grey: #727272;
+
+body {
+  background: $bg-purple;
+}
+
+.main-container {
+  // background: $bg-purple;
+  text-align: center;
+  padding: 100px;
+  font-family: sans-serif;
+  font-weight: 700;
+
+  .graph-title {
+    color: $primary-white;
+    text-align-last: left;
+    display: inline-block;
+    width: 1000px;
+  }
+}

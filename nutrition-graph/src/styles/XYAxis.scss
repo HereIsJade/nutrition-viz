@@ -1,0 +1,22 @@
+@import 'Main';
+
+.xy-axis {
+  .y-axis-text {
+    transform: translateY(20px);
+    fill: $primary-grey;
+    &.active {
+      transition: all .4s;
+      fill: $primary-white;
+    }
+  }
+  line {
+    stroke: $primary-grey;
+  }
+  .y-axis {
+    margin-left: 40px;
+    .domain {
+      visibility: hidden;
+    }
+  }
+}
+
