@@ -11,7 +11,7 @@
     Now you can try out the playground tool at http://localhost:4000/
 
 2. For the frontend:
-3. 
+
     ```
     cd nutrition-graph
     npm install
